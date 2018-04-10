@@ -54,8 +54,12 @@ namespace WeatherApp
                 var json = web.DownloadString(url);
                 var Object = JsonConvert.DeserializeObject<weatherForcast>(json);
 
-                weatherForcast forCast = Object;
+                weatherForcast forcast = Object;
+
                 lbl_cond_2.Text = string.Format("{0}", forcast.list[1].weather[0].main); //weather condition
+                lbl_des_2.Text = string.Format("{0}", forcast.list[1].weather[0].description); //weather description
+                lbl_temp_2.Text = string.Format("{0}", forcast.list[1].temp); //weather temperature
+                lbl_wind_2.Text = string.Format("{0}", forcast.list[1].speed); //weather temperature
 
             }
         }

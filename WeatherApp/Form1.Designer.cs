@@ -36,9 +36,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lbl_des_2 = new System.Windows.Forms.Label();
+            this.lbl_wind_2 = new System.Windows.Forms.Label();
+            this.lbl_temp_2 = new System.Windows.Forms.Label();
             this.lbl_cond_2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -120,41 +120,41 @@
             this.label2.TabIndex = 7;
             this.label2.Text = "Conditioning";
             // 
-            // label3
+            // lbl_des_2
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.SystemColors.Control;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label3.Location = new System.Drawing.Point(474, 205);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 20);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Description";
+            this.lbl_des_2.AutoSize = true;
+            this.lbl_des_2.BackColor = System.Drawing.SystemColors.Control;
+            this.lbl_des_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_des_2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.lbl_des_2.Location = new System.Drawing.Point(474, 205);
+            this.lbl_des_2.Name = "lbl_des_2";
+            this.lbl_des_2.Size = new System.Drawing.Size(100, 20);
+            this.lbl_des_2.TabIndex = 8;
+            this.lbl_des_2.Text = "Description";
             // 
-            // label4
+            // lbl_wind_2
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.SystemColors.Control;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Gray;
-            this.label4.Location = new System.Drawing.Point(623, 144);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(67, 20);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "12km/h";
+            this.lbl_wind_2.AutoSize = true;
+            this.lbl_wind_2.BackColor = System.Drawing.SystemColors.Control;
+            this.lbl_wind_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_wind_2.ForeColor = System.Drawing.Color.Gray;
+            this.lbl_wind_2.Location = new System.Drawing.Point(623, 144);
+            this.lbl_wind_2.Name = "lbl_wind_2";
+            this.lbl_wind_2.Size = new System.Drawing.Size(67, 20);
+            this.lbl_wind_2.TabIndex = 9;
+            this.lbl_wind_2.Text = "12km/h";
             // 
-            // label5
+            // lbl_temp_2
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.SystemColors.Control;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Red;
-            this.label5.Location = new System.Drawing.Point(623, 184);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(29, 20);
-            this.label5.TabIndex = 10;
-            this.label5.Text = "26";
+            this.lbl_temp_2.AutoSize = true;
+            this.lbl_temp_2.BackColor = System.Drawing.SystemColors.Control;
+            this.lbl_temp_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_temp_2.ForeColor = System.Drawing.Color.Red;
+            this.lbl_temp_2.Location = new System.Drawing.Point(623, 184);
+            this.lbl_temp_2.Name = "lbl_temp_2";
+            this.lbl_temp_2.Size = new System.Drawing.Size(29, 20);
+            this.lbl_temp_2.TabIndex = 10;
+            this.lbl_temp_2.Text = "26";
             // 
             // lbl_cond_2
             // 
@@ -173,9 +173,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(799, 477);
             this.Controls.Add(this.lbl_cond_2);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lbl_temp_2);
+            this.Controls.Add(this.lbl_wind_2);
+            this.Controls.Add(this.lbl_des_2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label1);
@@ -201,9 +201,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lbl_des_2;
+        private System.Windows.Forms.Label lbl_wind_2;
+        private System.Windows.Forms.Label lbl_temp_2;
         private System.Windows.Forms.Label lbl_cond_2;
     }
 }
