@@ -15,8 +15,7 @@ namespace WeatherApp
     public partial class Form1 : Form
     {
         const string APPID = "542ffd081e67f4512b705f89d2a611b2";
-        string cityName = "Galway";        
-
+        string cityName = "Galway";
         public Form1()
         {
             InitializeComponent();
@@ -46,8 +45,13 @@ namespace WeatherApp
             }
 
             
-        }  
+        }
+        void getForcast(string city) {
+            string url = "";
+            using (WebClient web = new WebClient()) {
 
+            }
+        }
         
     }
 }
