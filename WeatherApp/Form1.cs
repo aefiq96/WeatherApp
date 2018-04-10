@@ -14,8 +14,8 @@ namespace WeatherApp
 {
     public partial class Form1 : Form
     {
-        const string APPID = "";
-        string cityName = "Colombo";
+        const string APPID = "542ffd081e67f4512b705f89d2a611b2";
+        string cityName = "Galway";
         //private object lbl_cityName;
         //private object lbl_countryName;
         //private object lbl_Temp;
@@ -23,7 +23,7 @@ namespace WeatherApp
         public Form1()
         {
             InitializeComponent();
-            getWeather();
+            getWeather("Ireland");
         }
 
         /*private void label1_Click(object sender, EventArgs e)
@@ -31,12 +31,12 @@ namespace WeatherApp
 
         }*/
 
-        void getWeather()
+        void getWeather(string city)
         {
             using (WebClient web = new WebClient())
             {
                 //where do i get this url?
-                string url = string.Format("http://api.openweathermap.org/data/2.5/weather?q=Galway&appid=542ffd081e67f4512b705f89d2a611b2&units=metric&cnt=6");
+                string url = string.Format("http://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}&units=metric&cnt=6", cityName, APPID);
 
                 var json = web.DownloadString(url);
 

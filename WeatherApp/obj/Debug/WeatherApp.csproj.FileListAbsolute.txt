@@ -9,3 +9,14 @@ C:\Users\NuzhafiqIqbal\Desktop\Weather App\WeatherApp\WeatherApp\obj\Debug\Weath
 C:\Users\NuzhafiqIqbal\Desktop\Weather App\WeatherApp\WeatherApp\obj\Debug\WeatherApp.csproj.GenerateResource.Cache
 C:\Users\NuzhafiqIqbal\Desktop\Weather App\WeatherApp\WeatherApp\obj\Debug\WeatherApp.exe
 C:\Users\NuzhafiqIqbal\Desktop\Weather App\WeatherApp\WeatherApp\obj\Debug\WeatherApp.pdb
+C:\Users\NuzhafiqIqbal\Desktop\WeatherApp\WeatherApp\bin\Debug\WeatherApp.exe.config
+C:\Users\NuzhafiqIqbal\Desktop\WeatherApp\WeatherApp\obj\Debug\WeatherApp.exe
+C:\Users\NuzhafiqIqbal\Desktop\WeatherApp\WeatherApp\obj\Debug\WeatherApp.pdb
+C:\Users\NuzhafiqIqbal\Desktop\WeatherApp\WeatherApp\bin\Debug\WeatherApp.exe
+C:\Users\NuzhafiqIqbal\Desktop\WeatherApp\WeatherApp\bin\Debug\WeatherApp.pdb
+C:\Users\NuzhafiqIqbal\Desktop\WeatherApp\WeatherApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\NuzhafiqIqbal\Desktop\WeatherApp\WeatherApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\NuzhafiqIqbal\Desktop\WeatherApp\WeatherApp\obj\Debug\WeatherApp.csprojResolveAssemblyReference.cache
+C:\Users\NuzhafiqIqbal\Desktop\WeatherApp\WeatherApp\obj\Debug\WeatherApp.Form1.resources
+C:\Users\NuzhafiqIqbal\Desktop\WeatherApp\WeatherApp\obj\Debug\WeatherApp.Properties.Resources.resources
+C:\Users\NuzhafiqIqbal\Desktop\WeatherApp\WeatherApp\obj\Debug\WeatherApp.csproj.GenerateResource.Cache
