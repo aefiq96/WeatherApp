@@ -7,9 +7,13 @@ using System.Threading.Tasks;
 namespace WeatherApp
 {
     public class weatherForcast{
-        public List<list> ForcastList { get; set; }
+        public city city { get; set; }
+        public List<list> list { get; set; }
     }
 
+    public class city {
+        public string name { get; set; }
+    }
     public class list {
 
     }
