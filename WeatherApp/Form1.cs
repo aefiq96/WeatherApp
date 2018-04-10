@@ -19,7 +19,9 @@ namespace WeatherApp
         public Form1()
         {
             InitializeComponent();
-            getWeather("Ireland");
+            getWeather("Ireland"); //one day weather
+            getForcast("Ireland"); //more than one day 
+
         }
         
 
@@ -49,7 +51,10 @@ namespace WeatherApp
         void getForcast(string city) {
             string url = "";
             using (WebClient web = new WebClient()) {
+                var json = web.DownloadString(url);
+                var Object = JsonConvert.DeserializeObject<weatherForcast>(json);
 
+                weatherForcast forCast = Object;
             }
         }
         
