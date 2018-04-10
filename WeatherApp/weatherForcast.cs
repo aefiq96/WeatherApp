@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace WeatherApp
 {
-    class weatherForcast
-    {
+    public class weatherForcast{
+        public List<list> ForcastList { get; set; }
+    }
+
+    public class list {
+
     }
 }
