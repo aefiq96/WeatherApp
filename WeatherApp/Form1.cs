@@ -55,6 +55,8 @@ namespace WeatherApp
                 var Object = JsonConvert.DeserializeObject<weatherForcast>(json);
 
                 weatherForcast forCast = Object;
+                lbl_cond_2.Text = string.Format("{0}", forcast.list[1].weather[0].main); //weather condition
+
             }
         }
         
