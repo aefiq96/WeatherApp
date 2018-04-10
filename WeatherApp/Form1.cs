@@ -15,21 +15,14 @@ namespace WeatherApp
     public partial class Form1 : Form
     {
         const string APPID = "542ffd081e67f4512b705f89d2a611b2";
-        string cityName = "Galway";
-        //private object lbl_cityName;
-        //private object lbl_countryName;
-        //private object lbl_Temp;
+        string cityName = "Galway";        
 
         public Form1()
         {
             InitializeComponent();
             getWeather("Ireland");
         }
-
-        /*private void label1_Click(object sender, EventArgs e)
-        {
-
-        }*/
+        
 
         void getWeather(string city)
         {
@@ -42,9 +35,7 @@ namespace WeatherApp
 
                 var result = JsonConvert.DeserializeObject<weatherInfo.Root>(json);
 
-                weatherInfo.Root outPut = result;
-
-                
+                weatherInfo.Root outPut = result;                
 
                 lbl_cityName.Text = string.Format("{0}", outPut.name);
                 lbl_countryName.Text = string.Format("{0}", outPut.sys.country);
@@ -55,11 +46,8 @@ namespace WeatherApp
             }
 
             
-        }
+        }  
 
-        /*private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }*/
+        
     }
 }
