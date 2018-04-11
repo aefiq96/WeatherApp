@@ -56,7 +56,7 @@ namespace WeatherApp
                 var Object = JsonConvert.DeserializeObject<weatherForcast>(json);
 
                 weatherForcast forcast = Object;
-                lbl_day_2.Text = string.Format("{0}", forcast.list[1].dt); //returning milli second
+                lbl_day_2.Text = string.Format("{0}", getDate(forcast.list[1].dt).DayOfWeek); //returning Day
                 lbl_cond_2.Text = string.Format("{0}", forcast.list[1].weather[0].main); //weather condition
                 lbl_des_2.Text = string.Format("{0}", forcast.list[1].weather[0].description); //weather description
                 lbl_temp_2.Text = string.Format("{0} \u00B0" + "C", forcast.list[1].temp.day); //weather temperature
