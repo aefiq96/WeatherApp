@@ -33,7 +33,7 @@
             this.lbl_countryName = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lbl_Temp = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbl_day_2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.lbl_des_2 = new System.Windows.Forms.Label();
@@ -87,16 +87,16 @@
             this.lbl_Temp.TabIndex = 4;
             this.lbl_Temp.Text = "10";
             // 
-            // label1
+            // lbl_day_2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(474, 138);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 26);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "DAYS";
+            this.lbl_day_2.AutoSize = true;
+            this.lbl_day_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_day_2.ForeColor = System.Drawing.Color.White;
+            this.lbl_day_2.Location = new System.Drawing.Point(474, 138);
+            this.lbl_day_2.Name = "lbl_day_2";
+            this.lbl_day_2.Size = new System.Drawing.Size(78, 26);
+            this.lbl_day_2.TabIndex = 5;
+            this.lbl_day_2.Text = "DAYS";
             // 
             // pictureBox2
             // 
@@ -178,7 +178,7 @@
             this.Controls.Add(this.lbl_des_2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbl_day_2);
             this.Controls.Add(this.lbl_Temp);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lbl_countryName);
@@ -198,7 +198,7 @@
         private System.Windows.Forms.Label lbl_countryName;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lbl_Temp;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbl_day_2;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbl_des_2;
