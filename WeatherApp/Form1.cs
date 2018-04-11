@@ -50,7 +50,7 @@ namespace WeatherApp
         }
         void getForcast(string city) {
             int day = 5;
-            string url = string.Format("http://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}&units=metric&cnt=6");
+            string url = string.Format("http://api.openweathermap.org/data/2.5/forecast/daily?q={0}&units=metric&cnt={1}&APPID={2}",city,day,APPID);
             using (WebClient web = new WebClient()) {
                 var json = web.DownloadString(url);
                 var Object = JsonConvert.DeserializeObject<weatherForcast>(json);
