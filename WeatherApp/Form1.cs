@@ -64,6 +64,17 @@ namespace WeatherApp
 
             }
         }
+
+        DateTime getDate(double millisecond) {
+            DateTime day = new System.DateTime(1970, 1, 1, 0, 0, 0, 0, System.DateTimeKind.Utc).ToLocalTime();
+            day = day.AddSeconds(millisecond).ToLocalTime();
+
+            return day;
+
+        }
+
+
+
         
     }
 }
