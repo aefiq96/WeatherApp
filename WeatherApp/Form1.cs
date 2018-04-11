@@ -56,11 +56,21 @@ namespace WeatherApp
                 var Object = JsonConvert.DeserializeObject<weatherForcast>(json);
 
                 weatherForcast forcast = Object;
+
+
+                //next day
                 lbl_day_2.Text = string.Format("{0}", getDate(forcast.list[1].dt).DayOfWeek); //returning Day
                 lbl_cond_2.Text = string.Format("{0}", forcast.list[1].weather[0].main); //weather condition
                 lbl_des_2.Text = string.Format("{0}", forcast.list[1].weather[0].description); //weather description
                 lbl_temp_2.Text = string.Format("{0} \u00B0" + "C", forcast.list[1].temp.day); //weather temperature
                 lbl_wind_2.Text = string.Format("{0} km/h", forcast.list[1].speed); //weather temperature
+
+                //day after tomorrow
+                lbl_day_3.Text = string.Format("{0}", getDate(forcast.list[1].dt).DayOfWeek); //returning Day
+                lbl_cond_3.Text = string.Format("{0}", forcast.list[1].weather[0].main); //weather condition
+                lbl_des_3.Text = string.Format("{0}", forcast.list[1].weather[0].description); //weather description
+                lbl_temp_3.Text = string.Format("{0} \u00B0" + "C", forcast.list[1].temp.day); //weather temperature
+                lbl_wind_3.Text = string.Format("{0} km/h", forcast.list[1].speed); //weather temperature
 
             }
         }
