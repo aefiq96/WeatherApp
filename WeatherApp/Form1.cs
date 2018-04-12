@@ -102,6 +102,13 @@ namespace WeatherApp
                 
         }
 
-        
+        private void btn_Search_Click(object sender, EventArgs e)
+        {
+            if (txt_cityName.Text != "")
+            {
+                getWeather(txt_cityName.Text);
+                getForcast(txt_cityName.Text);
+            }
+        }
     }
 }

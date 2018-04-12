@@ -47,7 +47,7 @@
             this.pic_2 = new System.Windows.Forms.PictureBox();
             this.lbl_day_3 = new System.Windows.Forms.Label();
             this.txt_cityName = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.search = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picture_Main)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_2)).BeginInit();
@@ -261,14 +261,15 @@
             this.txt_cityName.Size = new System.Drawing.Size(192, 20);
             this.txt_cityName.TabIndex = 18;
             // 
-            // button1
+            // search
             // 
-            this.button1.Location = new System.Drawing.Point(232, 21);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "Search";
-            this.button1.UseVisualStyleBackColor = true;
+            this.search.Location = new System.Drawing.Point(232, 21);
+            this.search.Name = "search";
+            this.search.Size = new System.Drawing.Size(75, 23);
+            this.search.TabIndex = 19;
+            this.search.Text = "Search";
+            this.search.UseVisualStyleBackColor = true;
+            this.search.Click += new System.EventHandler(this.btn_Search_Click);
             // 
             // Form1
             // 
@@ -278,7 +279,7 @@
             this.BackgroundImage = global::WeatherApp.Properties.Resources.night;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(799, 477);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.search);
             this.Controls.Add(this.txt_cityName);
             this.Controls.Add(this.lbl_temp_3);
             this.Controls.Add(this.lbl_wind_3);
@@ -327,7 +328,7 @@
         private System.Windows.Forms.PictureBox pic_2;
         private System.Windows.Forms.Label lbl_day_3;
         private System.Windows.Forms.TextBox txt_cityName;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button search;
     }
 }
 
