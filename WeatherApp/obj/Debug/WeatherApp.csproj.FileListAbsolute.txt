@@ -19,3 +19,4 @@ C:\Users\NuzhafiqIqbal\Desktop\WeatherApp\WeatherApp\bin\Debug\Newtonsoft.Json.x
 C:\Users\NuzhafiqIqbal\Desktop\WeatherApp\WeatherApp\obj\Debug\WeatherApp.Form1.resources
 C:\Users\NuzhafiqIqbal\Desktop\WeatherApp\WeatherApp\obj\Debug\WeatherApp.Properties.Resources.resources
 C:\Users\NuzhafiqIqbal\Desktop\WeatherApp\WeatherApp\obj\Debug\WeatherApp.csproj.GenerateResource.Cache
+C:\Users\NuzhafiqIqbal\Desktop\WeatherApp\WeatherApp\obj\Debug\WeatherApp.csprojResolveAssemblyReference.cache

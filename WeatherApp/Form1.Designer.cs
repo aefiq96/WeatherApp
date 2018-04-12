@@ -46,6 +46,8 @@
             this.lbl_cond_3 = new System.Windows.Forms.Label();
             this.pic_2 = new System.Windows.Forms.PictureBox();
             this.lbl_day_3 = new System.Windows.Forms.Label();
+            this.txt_cityName = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picture_Main)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic_2)).BeginInit();
@@ -57,7 +59,7 @@
             this.lbl_cityName.BackColor = System.Drawing.Color.Transparent;
             this.lbl_cityName.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_cityName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lbl_cityName.Location = new System.Drawing.Point(28, 24);
+            this.lbl_cityName.Location = new System.Drawing.Point(26, 154);
             this.lbl_cityName.Name = "lbl_cityName";
             this.lbl_cityName.Size = new System.Drawing.Size(159, 46);
             this.lbl_cityName.TabIndex = 0;
@@ -69,7 +71,7 @@
             this.lbl_countryName.BackColor = System.Drawing.Color.Transparent;
             this.lbl_countryName.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_countryName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lbl_countryName.Location = new System.Drawing.Point(36, 92);
+            this.lbl_countryName.Location = new System.Drawing.Point(34, 222);
             this.lbl_countryName.Name = "lbl_countryName";
             this.lbl_countryName.Size = new System.Drawing.Size(40, 31);
             this.lbl_countryName.TabIndex = 2;
@@ -79,7 +81,7 @@
             // 
             this.picture_Main.BackColor = System.Drawing.Color.Transparent;
             this.picture_Main.Image = ((System.Drawing.Image)(resources.GetObject("picture_Main.Image")));
-            this.picture_Main.Location = new System.Drawing.Point(42, 138);
+            this.picture_Main.Location = new System.Drawing.Point(40, 268);
             this.picture_Main.Name = "picture_Main";
             this.picture_Main.Size = new System.Drawing.Size(100, 87);
             this.picture_Main.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -92,7 +94,7 @@
             this.lbl_Temp.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Temp.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Temp.ForeColor = System.Drawing.Color.White;
-            this.lbl_Temp.Location = new System.Drawing.Point(148, 149);
+            this.lbl_Temp.Location = new System.Drawing.Point(146, 279);
             this.lbl_Temp.Name = "lbl_Temp";
             this.lbl_Temp.Size = new System.Drawing.Size(109, 76);
             this.lbl_Temp.TabIndex = 4;
@@ -252,6 +254,22 @@
             this.lbl_day_3.TabIndex = 12;
             this.lbl_day_3.Text = "DAYS";
             // 
+            // txt_cityName
+            // 
+            this.txt_cityName.Location = new System.Drawing.Point(34, 24);
+            this.txt_cityName.Name = "txt_cityName";
+            this.txt_cityName.Size = new System.Drawing.Size(192, 20);
+            this.txt_cityName.TabIndex = 18;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(232, 21);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 19;
+            this.button1.Text = "Search";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -260,6 +278,8 @@
             this.BackgroundImage = global::WeatherApp.Properties.Resources.night;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(799, 477);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txt_cityName);
             this.Controls.Add(this.lbl_temp_3);
             this.Controls.Add(this.lbl_wind_3);
             this.Controls.Add(this.lbl_des_3);
@@ -306,6 +326,8 @@
         private System.Windows.Forms.Label lbl_cond_3;
         private System.Windows.Forms.PictureBox pic_2;
         private System.Windows.Forms.Label lbl_day_3;
+        private System.Windows.Forms.TextBox txt_cityName;
+        private System.Windows.Forms.Button button1;
     }
 }
 
