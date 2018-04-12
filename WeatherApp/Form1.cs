@@ -19,8 +19,8 @@ namespace WeatherApp
         public Form1()
         {
             InitializeComponent();
-            getWeather("Ireland"); //one day weather
-            getForcast("Ireland"); //more than one day 
+            getWeather("Ireland"); // one day weather
+            getForcast("Ireland"); // more than one day 
 
         }
         
@@ -29,7 +29,7 @@ namespace WeatherApp
         {
             using (WebClient web = new WebClient())
             {
-                //where do i get this url?
+                // where do i get this url?
                 string url = string.Format("http://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}&units=metric&cnt=6", cityName, APPID);
 
                 var json = web.DownloadString(url);
@@ -58,14 +58,14 @@ namespace WeatherApp
                 weatherForcast forcast = Object;
 
 
-                //next day
+                // next day
                 lbl_day_2.Text = string.Format("{0}", getDate(forcast.list[1].dt).DayOfWeek); //returning Day
                 lbl_cond_2.Text = string.Format("{0}", forcast.list[1].weather[0].main); //weather condition
                 lbl_des_2.Text = string.Format("{0}", forcast.list[1].weather[0].description); //weather description
                 lbl_temp_2.Text = string.Format("{0} \u00B0" + "C", forcast.list[1].temp.day); //weather temperature
                 lbl_wind_2.Text = string.Format("{0} km/h", forcast.list[1].speed); //weather temperature
 
-                //day after tomorrow
+                // day after tomorrow
                 lbl_day_3.Text = string.Format("{0}", getDate(forcast.list[2].dt).DayOfWeek); //returning Day
                 lbl_cond_3.Text = string.Format("{0}", forcast.list[1].weather[0].main); //weather condition
                 lbl_des_3.Text = string.Format("{0}", forcast.list[1].weather[0].description); //weather description
@@ -85,7 +85,7 @@ namespace WeatherApp
         }
 
         Image setIcon() {
-            string url = "http://openweathermap.org/img/w/10d.png"; // weather icon resource
+            string url = "http://openweathermap.org/img/w/10n.png"; // weather icon resource //the n after the 10 stands for night
             var request = WebRequest.Create(url);
             using (var response = request.GetResponse())
             using (var weatherIcon = response.GetResponseStream())

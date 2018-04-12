@@ -6,22 +6,34 @@ using System.Threading.Tasks;
 
 namespace WeatherApp
 {
-    public class weatherForcast{
+    public class weatherForcast
+    {
         public city city { get; set; }
         public List<list> list { get; set; } //forcast list
-    }
 
-    public class temp {
+    } // end of weather forcast class
+
+    public class temp
+    {
         public double day { get; set; }
-    }
-    public class weather {
+
+    } // end of temp class
+
+    public class weather
+    {
         public string main { get; set; }//weather condition
         public string description { get; set; }//weather description
-    }
-    public class city {
+        
+    } // end of weather class
+
+    public class city
+    {
         public string name { get; set; }
-    }
-    public class list {
+
+    } // end of city class
+
+    public class list
+    {
         public double dt { get; set; } //day in milli seconds
         public double pressure { get; set; } //pressure hpa
         public double humidity { get; set; } //humidity %
@@ -29,5 +41,5 @@ namespace WeatherApp
         public temp temp { get; set; }
         public List<weather> weather { get; set; } //weather list
 
-    }
+    } // end of list class  
 }
