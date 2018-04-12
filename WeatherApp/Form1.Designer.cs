@@ -275,11 +275,11 @@
             // 
             // btn_save
             // 
-            this.btn_save.Location = new System.Drawing.Point(232, 94);
+            this.btn_save.Location = new System.Drawing.Point(26, 426);
             this.btn_save.Name = "btn_save";
             this.btn_save.Size = new System.Drawing.Size(75, 23);
             this.btn_save.TabIndex = 20;
-            this.btn_save.Text = "Search";
+            this.btn_save.Text = "Save";
             this.btn_save.UseVisualStyleBackColor = true;
             this.btn_save.Click += new System.EventHandler(this.btn_save_Click);
             // 

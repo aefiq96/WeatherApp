@@ -121,6 +121,10 @@ namespace WeatherApp
             {
                 using (StreamWriter str = new StreamWriter("my_weather.txt"))
                 {
+                    //str.Write("Hello user, Today's weather temperature is: " + lbl_Temp.Text);
+                    str.WriteLine("City Name" + lbl_cityName.Text);
+                    str.WriteLine("Country Name" + lbl_countryName.Text);
+                    str.WriteLine("Temp Name" + lbl_Temp.Text);
                 }
             }
         }
