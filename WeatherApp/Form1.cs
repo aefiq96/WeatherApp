@@ -83,7 +83,11 @@ namespace WeatherApp
 
         }
 
-
+        Image setIcon() {
+            string url = ""; // weather icon resource
+            var request = WebRequest.(url);
+                
+        }
 
         
     }
