@@ -73,6 +73,10 @@ namespace WeatherApp
                 lbl_temp_3.Text = string.Format("{0} \u00B0" + "C", forcast.list[2].temp.day); //weather temperature
                 lbl_wind_3.Text = string.Format("{0} km/h", forcast.list[2].speed); //weather temperature
 
+                //weather icon
+                pic_1.Image = setIcon(forcast.list[1].weather[0].icon);
+                pic_2.Image = setIcon(forcast.list[2].weather[0].icon);
+
             }
         }
 

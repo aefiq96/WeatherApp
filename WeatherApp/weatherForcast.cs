@@ -21,9 +21,10 @@ namespace WeatherApp
 
     public class weather
     {
-        public string main { get; set; }//weather condition
-        public string description { get; set; }//weather description
-        
+        public string main { get; set; } // weather condition
+        public string description { get; set; } // weather description
+        public string icon { get; set; } // weather icon id
+
     } // end of weather class
 
     public class city

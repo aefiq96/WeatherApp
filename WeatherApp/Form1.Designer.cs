@@ -34,7 +34,7 @@
             this.picture_Main = new System.Windows.Forms.PictureBox();
             this.lbl_Temp = new System.Windows.Forms.Label();
             this.lbl_day_2 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pic_1 = new System.Windows.Forms.PictureBox();
             this.lbl_cond_2 = new System.Windows.Forms.Label();
             this.lbl_des_2 = new System.Windows.Forms.Label();
             this.lbl_wind_2 = new System.Windows.Forms.Label();
@@ -44,11 +44,11 @@
             this.lbl_wind_3 = new System.Windows.Forms.Label();
             this.lbl_des_3 = new System.Windows.Forms.Label();
             this.lbl_cond_3 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pic_2 = new System.Windows.Forms.PictureBox();
             this.lbl_day_3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picture_Main)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_2)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl_cityName
@@ -110,16 +110,16 @@
             this.lbl_day_2.TabIndex = 5;
             this.lbl_day_2.Text = "DAYS";
             // 
-            // pictureBox2
+            // pic_1
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(368, 138);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 87);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 6;
-            this.pictureBox2.TabStop = false;
+            this.pic_1.BackColor = System.Drawing.Color.Transparent;
+            this.pic_1.Image = ((System.Drawing.Image)(resources.GetObject("pic_1.Image")));
+            this.pic_1.Location = new System.Drawing.Point(368, 138);
+            this.pic_1.Name = "pic_1";
+            this.pic_1.Size = new System.Drawing.Size(100, 87);
+            this.pic_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic_1.TabIndex = 6;
+            this.pic_1.TabStop = false;
             // 
             // lbl_cond_2
             // 
@@ -229,16 +229,16 @@
             this.lbl_cond_3.TabIndex = 14;
             this.lbl_cond_3.Text = "Conditioning";
             // 
-            // pictureBox3
+            // pic_2
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(368, 250);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(100, 87);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 13;
-            this.pictureBox3.TabStop = false;
+            this.pic_2.BackColor = System.Drawing.Color.Transparent;
+            this.pic_2.Image = ((System.Drawing.Image)(resources.GetObject("pic_2.Image")));
+            this.pic_2.Location = new System.Drawing.Point(368, 250);
+            this.pic_2.Name = "pic_2";
+            this.pic_2.Size = new System.Drawing.Size(100, 87);
+            this.pic_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic_2.TabIndex = 13;
+            this.pic_2.TabStop = false;
             // 
             // lbl_day_3
             // 
@@ -264,14 +264,14 @@
             this.Controls.Add(this.lbl_wind_3);
             this.Controls.Add(this.lbl_des_3);
             this.Controls.Add(this.lbl_cond_3);
-            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pic_2);
             this.Controls.Add(this.lbl_day_3);
             this.Controls.Add(this.label);
             this.Controls.Add(this.lbl_temp_2);
             this.Controls.Add(this.lbl_wind_2);
             this.Controls.Add(this.lbl_des_2);
             this.Controls.Add(this.lbl_cond_2);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pic_1);
             this.Controls.Add(this.lbl_day_2);
             this.Controls.Add(this.lbl_Temp);
             this.Controls.Add(this.picture_Main);
@@ -280,8 +280,8 @@
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.picture_Main)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -294,7 +294,7 @@
         private System.Windows.Forms.PictureBox picture_Main;
         private System.Windows.Forms.Label lbl_Temp;
         private System.Windows.Forms.Label lbl_day_2;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pic_1;
         private System.Windows.Forms.Label lbl_cond_2;
         private System.Windows.Forms.Label lbl_des_2;
         private System.Windows.Forms.Label lbl_wind_2;
@@ -304,7 +304,7 @@
         private System.Windows.Forms.Label lbl_wind_3;
         private System.Windows.Forms.Label lbl_des_3;
         private System.Windows.Forms.Label lbl_cond_3;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pic_2;
         private System.Windows.Forms.Label lbl_day_3;
     }
 }
