@@ -19,13 +19,13 @@ namespace WeatherApp
         public Form1()
         {
             InitializeComponent();
-            getWeather("Ireland"); // one day weather
-            getForcast("Ireland"); // more than one day 
+            getWeather(cityName); // one day weather
+            getForcast(cityName); // more than one day 
 
         }
         
 
-        void getWeather(string city)
+        void getWeather(string cityName)
         {
             using (WebClient web = new WebClient())
             {
@@ -106,9 +106,12 @@ namespace WeatherApp
         {
             if (txt_cityName.Text != "")
             {
-                getWeather(txt_cityName.Text);
-                getForcast(txt_cityName.Text);
+                this.cityName = txt_cityName.Text;
+                getWeather(cityName);
+                getForcast(cityName);
+
             }
+           
         }
     }
 }
