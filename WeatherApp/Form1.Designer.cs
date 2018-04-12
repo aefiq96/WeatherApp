@@ -35,11 +35,11 @@
             this.lbl_Temp = new System.Windows.Forms.Label();
             this.lbl_day_2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lbl_cond_2 = new System.Windows.Forms.Label();
             this.lbl_des_2 = new System.Windows.Forms.Label();
             this.lbl_wind_2 = new System.Windows.Forms.Label();
             this.lbl_temp_2 = new System.Windows.Forms.Label();
-            this.lbl_cond_2 = new System.Windows.Forms.Label();
+            this.label = new System.Windows.Forms.Label();
             this.lbl_temp_3 = new System.Windows.Forms.Label();
             this.lbl_wind_3 = new System.Windows.Forms.Label();
             this.lbl_des_3 = new System.Windows.Forms.Label();
@@ -121,17 +121,17 @@
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
             // 
-            // label2
+            // lbl_cond_2
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Yellow;
-            this.label2.Location = new System.Drawing.Point(474, 175);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(109, 20);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Conditioning";
+            this.lbl_cond_2.AutoSize = true;
+            this.lbl_cond_2.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_cond_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_cond_2.ForeColor = System.Drawing.Color.Yellow;
+            this.lbl_cond_2.Location = new System.Drawing.Point(474, 175);
+            this.lbl_cond_2.Name = "lbl_cond_2";
+            this.lbl_cond_2.Size = new System.Drawing.Size(109, 20);
+            this.lbl_cond_2.TabIndex = 7;
+            this.lbl_cond_2.Text = "Conditioning";
             // 
             // lbl_des_2
             // 
@@ -151,7 +151,7 @@
             this.lbl_wind_2.BackColor = System.Drawing.Color.Transparent;
             this.lbl_wind_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_wind_2.ForeColor = System.Drawing.Color.Gray;
-            this.lbl_wind_2.Location = new System.Drawing.Point(623, 144);
+            this.lbl_wind_2.Location = new System.Drawing.Point(671, 142);
             this.lbl_wind_2.Name = "lbl_wind_2";
             this.lbl_wind_2.Size = new System.Drawing.Size(67, 20);
             this.lbl_wind_2.TabIndex = 9;
@@ -163,23 +163,23 @@
             this.lbl_temp_2.BackColor = System.Drawing.Color.Transparent;
             this.lbl_temp_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_temp_2.ForeColor = System.Drawing.Color.Red;
-            this.lbl_temp_2.Location = new System.Drawing.Point(623, 184);
+            this.lbl_temp_2.Location = new System.Drawing.Point(671, 175);
             this.lbl_temp_2.Name = "lbl_temp_2";
             this.lbl_temp_2.Size = new System.Drawing.Size(29, 20);
             this.lbl_temp_2.TabIndex = 10;
             this.lbl_temp_2.Text = "26";
             // 
-            // lbl_cond_2
+            // label
             // 
-            this.lbl_cond_2.AutoSize = true;
-            this.lbl_cond_2.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_cond_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_cond_2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lbl_cond_2.Location = new System.Drawing.Point(360, 24);
-            this.lbl_cond_2.Name = "lbl_cond_2";
-            this.lbl_cond_2.Size = new System.Drawing.Size(161, 46);
-            this.lbl_cond_2.TabIndex = 11;
-            this.lbl_cond_2.Text = "Forcast";
+            this.label.AutoSize = true;
+            this.label.BackColor = System.Drawing.Color.Transparent;
+            this.label.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label.Location = new System.Drawing.Point(357, 24);
+            this.label.Name = "label";
+            this.label.Size = new System.Drawing.Size(161, 46);
+            this.label.TabIndex = 11;
+            this.label.Text = "Forcast";
             // 
             // lbl_temp_3
             // 
@@ -187,7 +187,7 @@
             this.lbl_temp_3.BackColor = System.Drawing.Color.Transparent;
             this.lbl_temp_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_temp_3.ForeColor = System.Drawing.Color.Red;
-            this.lbl_temp_3.Location = new System.Drawing.Point(623, 296);
+            this.lbl_temp_3.Location = new System.Drawing.Point(671, 287);
             this.lbl_temp_3.Name = "lbl_temp_3";
             this.lbl_temp_3.Size = new System.Drawing.Size(29, 20);
             this.lbl_temp_3.TabIndex = 17;
@@ -199,7 +199,7 @@
             this.lbl_wind_3.BackColor = System.Drawing.Color.Transparent;
             this.lbl_wind_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_wind_3.ForeColor = System.Drawing.Color.Gray;
-            this.lbl_wind_3.Location = new System.Drawing.Point(623, 256);
+            this.lbl_wind_3.Location = new System.Drawing.Point(671, 254);
             this.lbl_wind_3.Name = "lbl_wind_3";
             this.lbl_wind_3.Size = new System.Drawing.Size(67, 20);
             this.lbl_wind_3.TabIndex = 16;
@@ -266,11 +266,11 @@
             this.Controls.Add(this.lbl_cond_3);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.lbl_day_3);
-            this.Controls.Add(this.lbl_cond_2);
+            this.Controls.Add(this.label);
             this.Controls.Add(this.lbl_temp_2);
             this.Controls.Add(this.lbl_wind_2);
             this.Controls.Add(this.lbl_des_2);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lbl_cond_2);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.lbl_day_2);
             this.Controls.Add(this.lbl_Temp);
@@ -295,11 +295,11 @@
         private System.Windows.Forms.Label lbl_Temp;
         private System.Windows.Forms.Label lbl_day_2;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lbl_cond_2;
         private System.Windows.Forms.Label lbl_des_2;
         private System.Windows.Forms.Label lbl_wind_2;
         private System.Windows.Forms.Label lbl_temp_2;
-        private System.Windows.Forms.Label lbl_cond_2;
+        private System.Windows.Forms.Label label;
         private System.Windows.Forms.Label lbl_temp_3;
         private System.Windows.Forms.Label lbl_wind_3;
         private System.Windows.Forms.Label lbl_des_3;

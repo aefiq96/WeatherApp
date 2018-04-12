@@ -42,11 +42,12 @@ namespace WeatherApp
                 lbl_countryName.Text = string.Format("{0}", outPut.sys.country);
                 lbl_Temp.Text = string.Format("{0} \u00B0" + "C", outPut.main.temp);
 
-               
+                picture_Main.Image = setIcon(outPut.weather[0].icon);
+
 
             }
 
-            
+
         }
         void getForcast(string city) {
             int day = 5;
@@ -72,7 +73,6 @@ namespace WeatherApp
                 lbl_temp_3.Text = string.Format("{0} \u00B0" + "C", forcast.list[2].temp.day); //weather temperature
                 lbl_wind_3.Text = string.Format("{0} km/h", forcast.list[2].speed); //weather temperature
 
-                picture_Main.Image = setIcon();
             }
         }
 
@@ -84,8 +84,8 @@ namespace WeatherApp
 
         }
 
-        Image setIcon() {
-            string url = "http://openweathermap.org/img/w/10n.png"; // weather icon resource //the n after the 10 stands for night
+        Image setIcon(string iconID) {
+            string url = string.Format("http://openweathermap.org/img/w/{0}.png", iconID); // weather icon resource /you can also have it like 10n.png - n after the 10 stands for night and d for day
             var request = WebRequest.Create(url);
             using (var response = request.GetResponse())
             using (var weatherIcon = response.GetResponseStream())
