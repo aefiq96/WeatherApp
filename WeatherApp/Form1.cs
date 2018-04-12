@@ -72,6 +72,7 @@ namespace WeatherApp
                 lbl_temp_3.Text = string.Format("{0} \u00B0" + "C", forcast.list[2].temp.day); //weather temperature
                 lbl_wind_3.Text = string.Format("{0} km/h", forcast.list[2].speed); //weather temperature
 
+                picture_Main.Image = setIcon();
             }
         }
 
@@ -84,8 +85,16 @@ namespace WeatherApp
         }
 
         Image setIcon() {
-            string url = ""; // weather icon resource
-            var request = WebRequest.(url);
+            string url = "http://openweathermap.org/img/w/10d.png"; // weather icon resource
+            var request = WebRequest.Create(url);
+            using (var response = request.GetResponse())
+            using (var weatherIcon = response.GetResponseStream())
+            {
+                Image weatherImg = Bitmap.FromStream(weatherIcon);
+                return weatherImg;
+
+            }
+            
                 
         }
 

@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.lbl_cityName = new System.Windows.Forms.Label();
             this.lbl_countryName = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.picture_Main = new System.Windows.Forms.PictureBox();
             this.lbl_Temp = new System.Windows.Forms.Label();
             this.lbl_day_2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -46,7 +46,7 @@
             this.lbl_cond_3 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.lbl_day_3 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_Main)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
@@ -75,16 +75,16 @@
             this.lbl_countryName.TabIndex = 2;
             this.lbl_countryName.Text = "IE";
             // 
-            // pictureBox1
+            // picture_Main
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(42, 138);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 87);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
+            this.picture_Main.BackColor = System.Drawing.Color.Transparent;
+            this.picture_Main.Image = ((System.Drawing.Image)(resources.GetObject("picture_Main.Image")));
+            this.picture_Main.Location = new System.Drawing.Point(42, 138);
+            this.picture_Main.Name = "picture_Main";
+            this.picture_Main.Size = new System.Drawing.Size(100, 87);
+            this.picture_Main.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picture_Main.TabIndex = 3;
+            this.picture_Main.TabStop = false;
             // 
             // lbl_Temp
             // 
@@ -274,12 +274,12 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.lbl_day_2);
             this.Controls.Add(this.lbl_Temp);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.picture_Main);
             this.Controls.Add(this.lbl_countryName);
             this.Controls.Add(this.lbl_cityName);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture_Main)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
@@ -291,7 +291,7 @@
 
         private System.Windows.Forms.Label lbl_cityName;
         private System.Windows.Forms.Label lbl_countryName;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox picture_Main;
         private System.Windows.Forms.Label lbl_Temp;
         private System.Windows.Forms.Label lbl_day_2;
         private System.Windows.Forms.PictureBox pictureBox2;
