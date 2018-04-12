@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Newtonsoft.Json;
+using System.IO;
 
 namespace WeatherApp
 {
@@ -29,7 +30,7 @@ namespace WeatherApp
         {
             using (WebClient web = new WebClient())
             {
-                // where do i get this url?
+                // api url
                 string url = string.Format("http://api.openweathermap.org/data/2.5/weather?q={0}&appid={1}&units=metric&cnt=6", cityName, APPID);
 
                 var json = web.DownloadString(url);
@@ -112,6 +113,16 @@ namespace WeatherApp
 
             }
            
+        }
+
+        private void btn_save_Click(object sender, EventArgs e)
+        {
+            if (txt_cityName.Text != "")
+            {
+                using (StreamWriter str = new StreamWriter("my_weather.txt"))
+                {
+                }
+            }
         }
     }
 }
