@@ -11,7 +11,6 @@ app. What the app does is up to you. You can have a single page app, or one with
 is a choice. 
 
 ## Requirements:
-
 + Well-designed UI that is fit for purpose and provides a good user experience.
 + Uses local/roaming storage for storing data and/or settings that are necessary for or
   enhance this user experience.
@@ -20,12 +19,10 @@ is a choice.
   server for data), camera, multi touch gestures
 + The app must be more than a simple information app. It must have interactivity as part of
   the design.
- 
-## Methods:
-I used multiple of methods for this app. For 
-
+  
 ## End Result:
 The app allows you to be able to enter any city in the world and it will give you information of the weather of that city. 
+Each time you've entered a city there is an option for you to save it. You can save as many cities as you want. 
 
 ## Links that helped me:
 + https://www.tutorialspoint.com/csharp/index.htm
