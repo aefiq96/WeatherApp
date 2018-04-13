@@ -22,8 +22,11 @@ is a choice.
  
 ### Methods:
 
-### Process:
+### End Result:
+The app allows you to be able to enter any city in the world and it will give you information of the weather of that city. 
+
 
 ### Links
 https://www.tutorialspoint.com/csharp/index.htm
 https://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.button.click(v=vs.110).aspx
+https://docs.microsoft.com/en-us/windows/uwp/files/quickstart-reading-and-writing-files
