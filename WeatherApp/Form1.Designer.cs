@@ -59,8 +59,8 @@
             this.lbl_cityName.AutoSize = true;
             this.lbl_cityName.BackColor = System.Drawing.Color.Transparent;
             this.lbl_cityName.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_cityName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lbl_cityName.Location = new System.Drawing.Point(12, 138);
+            this.lbl_cityName.ForeColor = System.Drawing.Color.White;
+            this.lbl_cityName.Location = new System.Drawing.Point(85, 138);
             this.lbl_cityName.Name = "lbl_cityName";
             this.lbl_cityName.Size = new System.Drawing.Size(159, 46);
             this.lbl_cityName.TabIndex = 0;
@@ -71,8 +71,8 @@
             this.lbl_countryName.AutoSize = true;
             this.lbl_countryName.BackColor = System.Drawing.Color.Transparent;
             this.lbl_countryName.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_countryName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lbl_countryName.Location = new System.Drawing.Point(20, 206);
+            this.lbl_countryName.ForeColor = System.Drawing.Color.White;
+            this.lbl_countryName.Location = new System.Drawing.Point(93, 206);
             this.lbl_countryName.Name = "lbl_countryName";
             this.lbl_countryName.Size = new System.Drawing.Size(40, 31);
             this.lbl_countryName.TabIndex = 2;
@@ -82,7 +82,7 @@
             // 
             this.picture_Main.BackColor = System.Drawing.Color.Transparent;
             this.picture_Main.Image = ((System.Drawing.Image)(resources.GetObject("picture_Main.Image")));
-            this.picture_Main.Location = new System.Drawing.Point(26, 252);
+            this.picture_Main.Location = new System.Drawing.Point(99, 252);
             this.picture_Main.Name = "picture_Main";
             this.picture_Main.Size = new System.Drawing.Size(100, 87);
             this.picture_Main.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -95,7 +95,7 @@
             this.lbl_Temp.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Temp.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Temp.ForeColor = System.Drawing.Color.White;
-            this.lbl_Temp.Location = new System.Drawing.Point(149, 269);
+            this.lbl_Temp.Location = new System.Drawing.Point(265, 269);
             this.lbl_Temp.Name = "lbl_Temp";
             this.lbl_Temp.Size = new System.Drawing.Size(57, 39);
             this.lbl_Temp.TabIndex = 4;
@@ -107,7 +107,7 @@
             this.lbl_day_2.BackColor = System.Drawing.Color.Transparent;
             this.lbl_day_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_day_2.ForeColor = System.Drawing.Color.White;
-            this.lbl_day_2.Location = new System.Drawing.Point(500, 192);
+            this.lbl_day_2.Location = new System.Drawing.Point(612, 202);
             this.lbl_day_2.Name = "lbl_day_2";
             this.lbl_day_2.Size = new System.Drawing.Size(78, 26);
             this.lbl_day_2.TabIndex = 5;
@@ -117,7 +117,7 @@
             // 
             this.pic_1.BackColor = System.Drawing.Color.Transparent;
             this.pic_1.Image = ((System.Drawing.Image)(resources.GetObject("pic_1.Image")));
-            this.pic_1.Location = new System.Drawing.Point(394, 192);
+            this.pic_1.Location = new System.Drawing.Point(506, 202);
             this.pic_1.Name = "pic_1";
             this.pic_1.Size = new System.Drawing.Size(100, 87);
             this.pic_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -129,8 +129,8 @@
             this.lbl_cond_2.AutoSize = true;
             this.lbl_cond_2.BackColor = System.Drawing.Color.Transparent;
             this.lbl_cond_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_cond_2.ForeColor = System.Drawing.Color.Yellow;
-            this.lbl_cond_2.Location = new System.Drawing.Point(500, 229);
+            this.lbl_cond_2.ForeColor = System.Drawing.Color.White;
+            this.lbl_cond_2.Location = new System.Drawing.Point(612, 239);
             this.lbl_cond_2.Name = "lbl_cond_2";
             this.lbl_cond_2.Size = new System.Drawing.Size(109, 20);
             this.lbl_cond_2.TabIndex = 7;
@@ -141,8 +141,8 @@
             this.lbl_des_2.AutoSize = true;
             this.lbl_des_2.BackColor = System.Drawing.Color.Transparent;
             this.lbl_des_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_des_2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lbl_des_2.Location = new System.Drawing.Point(500, 259);
+            this.lbl_des_2.ForeColor = System.Drawing.Color.White;
+            this.lbl_des_2.Location = new System.Drawing.Point(612, 269);
             this.lbl_des_2.Name = "lbl_des_2";
             this.lbl_des_2.Size = new System.Drawing.Size(100, 20);
             this.lbl_des_2.TabIndex = 8;
@@ -153,8 +153,8 @@
             this.lbl_wind_2.AutoSize = true;
             this.lbl_wind_2.BackColor = System.Drawing.Color.Transparent;
             this.lbl_wind_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_wind_2.ForeColor = System.Drawing.Color.Gray;
-            this.lbl_wind_2.Location = new System.Drawing.Point(697, 196);
+            this.lbl_wind_2.ForeColor = System.Drawing.Color.White;
+            this.lbl_wind_2.Location = new System.Drawing.Point(809, 206);
             this.lbl_wind_2.Name = "lbl_wind_2";
             this.lbl_wind_2.Size = new System.Drawing.Size(67, 20);
             this.lbl_wind_2.TabIndex = 9;
@@ -165,8 +165,8 @@
             this.lbl_temp_2.AutoSize = true;
             this.lbl_temp_2.BackColor = System.Drawing.Color.Transparent;
             this.lbl_temp_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_temp_2.ForeColor = System.Drawing.Color.Red;
-            this.lbl_temp_2.Location = new System.Drawing.Point(697, 229);
+            this.lbl_temp_2.ForeColor = System.Drawing.Color.White;
+            this.lbl_temp_2.Location = new System.Drawing.Point(809, 239);
             this.lbl_temp_2.Name = "lbl_temp_2";
             this.lbl_temp_2.Size = new System.Drawing.Size(29, 20);
             this.lbl_temp_2.TabIndex = 10;
@@ -177,8 +177,8 @@
             this.label.AutoSize = true;
             this.label.BackColor = System.Drawing.Color.Transparent;
             this.label.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label.Location = new System.Drawing.Point(386, 128);
+            this.label.ForeColor = System.Drawing.Color.White;
+            this.label.Location = new System.Drawing.Point(498, 138);
             this.label.Name = "label";
             this.label.Size = new System.Drawing.Size(161, 46);
             this.label.TabIndex = 11;
@@ -189,8 +189,8 @@
             this.lbl_temp_3.AutoSize = true;
             this.lbl_temp_3.BackColor = System.Drawing.Color.Transparent;
             this.lbl_temp_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_temp_3.ForeColor = System.Drawing.Color.Red;
-            this.lbl_temp_3.Location = new System.Drawing.Point(697, 341);
+            this.lbl_temp_3.ForeColor = System.Drawing.Color.White;
+            this.lbl_temp_3.Location = new System.Drawing.Point(809, 381);
             this.lbl_temp_3.Name = "lbl_temp_3";
             this.lbl_temp_3.Size = new System.Drawing.Size(29, 20);
             this.lbl_temp_3.TabIndex = 17;
@@ -201,8 +201,8 @@
             this.lbl_wind_3.AutoSize = true;
             this.lbl_wind_3.BackColor = System.Drawing.Color.Transparent;
             this.lbl_wind_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_wind_3.ForeColor = System.Drawing.Color.Gray;
-            this.lbl_wind_3.Location = new System.Drawing.Point(697, 308);
+            this.lbl_wind_3.ForeColor = System.Drawing.Color.White;
+            this.lbl_wind_3.Location = new System.Drawing.Point(809, 348);
             this.lbl_wind_3.Name = "lbl_wind_3";
             this.lbl_wind_3.Size = new System.Drawing.Size(67, 20);
             this.lbl_wind_3.TabIndex = 16;
@@ -213,8 +213,8 @@
             this.lbl_des_3.AutoSize = true;
             this.lbl_des_3.BackColor = System.Drawing.Color.Transparent;
             this.lbl_des_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_des_3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lbl_des_3.Location = new System.Drawing.Point(500, 371);
+            this.lbl_des_3.ForeColor = System.Drawing.Color.White;
+            this.lbl_des_3.Location = new System.Drawing.Point(612, 411);
             this.lbl_des_3.Name = "lbl_des_3";
             this.lbl_des_3.Size = new System.Drawing.Size(100, 20);
             this.lbl_des_3.TabIndex = 15;
@@ -225,8 +225,8 @@
             this.lbl_cond_3.AutoSize = true;
             this.lbl_cond_3.BackColor = System.Drawing.Color.Transparent;
             this.lbl_cond_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_cond_3.ForeColor = System.Drawing.Color.Yellow;
-            this.lbl_cond_3.Location = new System.Drawing.Point(500, 341);
+            this.lbl_cond_3.ForeColor = System.Drawing.Color.White;
+            this.lbl_cond_3.Location = new System.Drawing.Point(612, 381);
             this.lbl_cond_3.Name = "lbl_cond_3";
             this.lbl_cond_3.Size = new System.Drawing.Size(109, 20);
             this.lbl_cond_3.TabIndex = 14;
@@ -236,7 +236,7 @@
             // 
             this.pic_2.BackColor = System.Drawing.Color.Transparent;
             this.pic_2.Image = ((System.Drawing.Image)(resources.GetObject("pic_2.Image")));
-            this.pic_2.Location = new System.Drawing.Point(394, 304);
+            this.pic_2.Location = new System.Drawing.Point(506, 344);
             this.pic_2.Name = "pic_2";
             this.pic_2.Size = new System.Drawing.Size(100, 87);
             this.pic_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -249,7 +249,7 @@
             this.lbl_day_3.BackColor = System.Drawing.Color.Transparent;
             this.lbl_day_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_day_3.ForeColor = System.Drawing.Color.White;
-            this.lbl_day_3.Location = new System.Drawing.Point(500, 304);
+            this.lbl_day_3.Location = new System.Drawing.Point(612, 344);
             this.lbl_day_3.Name = "lbl_day_3";
             this.lbl_day_3.Size = new System.Drawing.Size(78, 26);
             this.lbl_day_3.TabIndex = 12;
