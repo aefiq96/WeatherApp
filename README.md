@@ -22,7 +22,7 @@ is a choice.
   
 ## End Result:
 The app allows you to be able to enter any city in the world and it will give you information of the weather of that city. 
-Each time you've entered a city there is an option for you to save it. You can save as many cities as you want. 
+Each time you've entered a city there is an option for you to save it. You can save as many cities as you want and it saves the information in a text file. 
 
 ## Links that helped me:
 + https://www.tutorialspoint.com/csharp/index.htm
